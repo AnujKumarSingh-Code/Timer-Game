@@ -1,5 +1,5 @@
 import Player from './components/Player.jsx';
-import TimerChallenge from './components/timerChallenge.jsx';
+import TimerChallenge from './components/TimerChallenge.jsx'
 
 function App() {
   
