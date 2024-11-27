@@ -3,9 +3,11 @@ import { useState , useRef } from 'react';
 export default function Player() {
   const newPlayerName = useRef();
   const [playerName , setPlayerName] = useState('');
+  const dialog = useRef();
 
   function handleClick(){
     setPlayerName(newPlayerName.current.value);
+    
   }
 
   return (
